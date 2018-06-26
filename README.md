@@ -38,9 +38,11 @@ Mais aussi:
 
 Pour revenir aw webscrapping, une particularité est l'absence totale d'horodatage des quotes. On peut retrouver manuellement les dates de certaines quotes via le compte tweeter DTC, mais impossible de remonter au delà de 2500 tweets (limite max). Bref, on sera embêté pour estimer l'effet de trend temporel sur le taux de like ou autre, il faudra faire l'hypothèse d'un rythme de publication constant, ce qui est faux. Enfin, des problèmes d'encodage de caractères spéciaux qui m'ont obligé à supprimer tous les accents.
 
+3. Quelques statistiques
 
+La première statistique est le rapport entre les likes et les dislikes. Il faut savoir que le site a ajouté le bouton *dislike* il y a 2 ou 3 ans, avant seul le like était possible, ce qui peut expliquer la chute soudaine autour de la 13000^ème (celles d'avant bénéficient d'un stock de likes plus élevé). On voit toutefois une remontée progressive sur les dernières, peut-être due à une évolution du comportement des utilisateurs. Mais ce sont toujours les quotes anciennes qui récoltent le plus d'interactions likes/dislikes, contrairement aux commentaires, qui sont plus fournis sur les quotes récentes (on peut imaginer qu'ils ont été autorisés via l'application smartphone?). Une explication pourrait être l'instauration d'un controle des IPs qui empeche de voter plusieurs fois.
 
-
+![plot 1](plot_evolution_ratio.png)
 
 
 - 
