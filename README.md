@@ -81,6 +81,8 @@ Le nombre moyen de mots par quote est de 42 (oO => étonnement). Le corpus DTC r
 
 ![exemple quote 1](quote_exemple_7.png)
 
-Le premier résultat est un nuage de mots des quotes, élargissez l'image car elle vaut le coup d'oeil, surtout en comparaison avec Zola (nuage de droite).
+Le premier résultat est un nuage de mots des quotes, élargissez l'image car elle vaut le coup d'oeil, surtout en comparaison avec Zola (nuage de droite). En 130 ans d'écart, avant on parlait surtout d'hommes, maintenant on a des "mecs". On parlait de femmes aussi, sur les forums on se préocuppe surtout de sa mère (ou celle des autres). Tout un tas de mots compliqués on rejoint la catégorie de "trucs" ou "genre". Et peu importe l'époque, on parle toujours beaucoup de choses grandes ou petites (je n'ose imaginer de quoi il s'agit). Quand au "xd", il s'agit du smiley. Le mot "coup" n'a pas été supprimé comme mot valise, on aurait pu l'enlever.
 
 ![exemple quote 1](wordcloud.png)
+
+
