@@ -63,12 +63,20 @@ Certaines quotes contiennent des éléments typiques des forums de discussions, 
 
 ![exemple quote 1](exclamations.png)
 
-- Bien entendu, l'usage à foisons des smileys, dont une typologie s'imposait absolument. On a recencé la fréquence de chaque type de smiley dans les quotes. 
+- Bien entendu, l'usage à foisons des smileys, dont une typologie s'imposait absolument. On a recencé la fréquence de chaque type de smiley dans les quotes (certains étant *étirés* à loisir), et bon... je pose ça là -__-
 
+![exemple quote 1](smileys.png)
 
 ## Pas de politique...
 
 la politique est très peu présente sur DansTonChat. Parce qu'elle est moins drôle, assurément, et parce qu'elle est moins un centre d'intérêt de l'audience. Toutefois quelques exceptions sont notables, et une recherche (incluant de potentielles fautes d'orthographe, donc en **regex**, souvenez-vous: `findall("[Hh]oll?ande?", quote)`). Alors voici un palmarès des hommes politiques ou partis les plus cités: une fixation sur Sarkozy et Le Pen, et un attrait supérieur des figures étrangères sur les françaises. A part ceux du tableau, tous les autres sont inexistants. Au total, ces termes ne représentent qu'un minuscule 0.3% des quotes.
 
 ![palmares politique](politique.png)
+
+## Analyse sémantique
+
+Foin d'ACP ou de modèles linéaires (ca serait trop pénible à présenter ici), allons tout de suite vers quelque chose de plus fin et subtil avec la **statistique textuelle**, il faut bien rentabiliser les formations qu'on fait! Le must en la matière est la logiciel IRAMUTEQ développé par Pierre Ratinaud du laboratoire LERASS (Toulouse). La statistique textelle va analyser le vocabulaire utilisé, le regrouper (*lemmatisation*) et classer en formes grammaticales, les hapax (mots uniques commes les pseudos ici), les fréquences, et surtout analyser les co-occurences (proximité des mots entre les segments (=quotes)). Et histoire de bien mesurer l'ampleur des dégâts, on va comparer avec l'analyse d'un classique de la littérature française, Germinal d'Emile Zola ([source](http://athena.unige.ch/athena/admin/ath_txt.html) du texte brut)
+
+
+
 
