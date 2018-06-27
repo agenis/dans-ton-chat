@@ -42,12 +42,17 @@ Pour revenir aw webscrapping, une particularité est l'absence totale d'horodata
 
 3. Quelques statistiques
 
-Une variable d'intérêt immédiat est le rapport entre les likes et les dislikes, c'est d'ailleurs la variable utilisée par le site pour recenser leurs meilleurs quotes. Le graphique d'évolution dans le temps de ce ratio n'apporte toutefois pas tellemnet d'information, puisqu'il traduit surtout des modifications dans le mode de récolte des likes: ajout d'un bouton dislike vers la 13000^ème quote, ajout d'une fonctionnalité de reconnaissance des IP (pas de votes multiples dans la même journée), arrivée de l'appli smartphone (qui modifie l'audience et son comportement). Les quotes anciennes sont massivement plus cliquées que les récentes, ce qui peut traduire tout simplement une forte hausse du rythme de publication ces dernières années, ne laissant plus aux votes le temps de s'accumuler. Le second graphe est peut être plus parlant, avec une couleur plus claire si la quote est plus récente.
+Une variable d'intérêt immédiat est le rapport entre les likes et les dislikes, c'est d'ailleurs la variable utilisée par le site pour recenser leurs meilleurs quotes. Le graphique d'évolution dans le temps de ce ratio n'apporte toutefois pas tellemnet d'information, puisqu'il traduit surtout des modifications dans le mode de récolte des likes: ajout d'un bouton dislike vers la 13000^ème quote, ajout d'une fonctionnalité de reconnaissance des IP (pas de votes multiples dans la même journée), arrivée de l'appli smartphone (qui modifie l'audience et son comportement). Les quotes anciennes sont massivement plus cliquées que les récentes, ce qui peut traduire tout simplement une forte hausse du rythme de publication ces dernières années, ne laissant plus aux votes le temps de s'accumuler. Le second graphe est peut être plus parlant, et semble montrer un déficit de dislikes pour les quotes récentes (bleu clair).
 
 ![plot 1](plot_evolution_ratio.png)
 ![plot 1](plot_evolution_ratio_scatter.png)
 
 Le nombre d'interlocuteurs dans une quote est dominé par le nombre 2 (plus de la moitié), les meilleurs scores étant atteints pour un nombre d'interlocuteurs élevé (entre 5 et 8), mais pas trop quand même. Les quotes "monologues" sont en général moins plébiscitées. Le *nombre de lignes* d'une quote n'a en revanche pas d'influence dramatique sur son succès. Le nombre de commentaires (qui n'est pas en soi une variable explicative car postérieure à la quote) est de 9 (med) ou 12 (moy) mais peut atteindre des pics à plus de 50 sur les quotes (1%) les plus "inspirantes".
 
-Particularités des quotes
+Particularités liée aux forums de discussion
+Certaines quotes contiennent des éléments typiques des forums de discussions:
+- des messages "offline" pour indiquer un statut (comme sur Facebook)
+![exemple quote 1](quote_exemple_2.png)
+- un mécanisme d'exclusion (le *kick*), qui peut etre automatique (insultes, pornographie, etc.) ou manuel
+![exemple quote 1](quote_exemple_3.png)
 
