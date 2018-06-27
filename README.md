@@ -81,4 +81,6 @@ Le nombre moyen de mots par quote est de 42 (oO => étonnement). Le corpus DTC r
 
 ![exemple quote 1](quote_exemple_7.png)
 
+Le premier résultat est un nuage de mots des quotes, élargissez l'image car elle vaut le coup d'oeil, surtout en comparaison avec Zola (nuage de droite).
 
+![exemple quote 1](wordcloud.png)
