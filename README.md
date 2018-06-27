@@ -50,9 +50,14 @@ Une variable d'intérêt immédiat est le rapport entre les likes et les dislike
 Le nombre d'interlocuteurs dans une quote est dominé par le nombre 2 (plus de la moitié), les meilleurs scores étant atteints pour un nombre d'interlocuteurs élevé (entre 5 et 8), mais pas trop quand même. Les quotes "monologues" sont en général moins plébiscitées. Le *nombre de lignes* d'une quote n'a en revanche pas d'influence dramatique sur son succès. Le nombre de commentaires (qui n'est pas en soi une variable explicative car postérieure à la quote) est de 9 (med) ou 12 (moy) mais peut atteindre des pics à plus de 50 sur les quotes (1%) les plus "inspirantes".
 
 Particularités liée aux forums de discussion
-Certaines quotes contiennent des éléments typiques des forums de discussions:
+Certaines quotes contiennent des éléments typiques des forums de discussions, on les retrouve en nombre
 - des messages "offline" pour indiquer un statut (comme sur Facebook)
 ![exemple quote 1](quote_exemple_2.png)
-- un mécanisme d'exclusion (le *kick*), qui peut etre automatique (insultes, pornographie, etc.) ou manuel
+- un mécanisme d'exclusion (le *kick*), qui peut etre automatique (insultes, pornographie, etc.) ou manuel. 
 ![exemple quote 1](quote_exemple_3.png)
+- le *quit* intervient quand la personne quitte volontairement (ou non) le chat
+![exemple quote 1](quote_exemple_4.png)
+
+
+
 
