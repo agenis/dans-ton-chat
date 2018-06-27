@@ -40,7 +40,7 @@ Mais aussi:
 
 Pour revenir aw webscrapping, une particularité est l'absence totale d'horodatage des quotes. On peut retrouver manuellement les dates de certaines quotes via le compte tweeter DTC, mais impossible de remonter au delà de 2500 tweets (limite max). Bref, on sera embêté pour estimer l'effet de trend temporel sur le taux de like ou autre, il faudra faire l'hypothèse d'un rythme de publication constant, ce qui est faux. Enfin, des problèmes d'encodage de caractères spéciaux qui m'ont obligé à supprimer tous les accents.
 
-3. Quelques statistiques
+## Quelques statistiques
 
 Une variable d'intérêt immédiat est le rapport entre les likes et les dislikes, c'est d'ailleurs la variable utilisée par le site pour recenser leurs meilleurs quotes. Le graphique d'évolution dans le temps de ce ratio n'apporte toutefois pas tellemnet d'information, puisqu'il traduit surtout des modifications dans le mode de récolte des likes: ajout d'un bouton dislike vers la 13000^ème quote, ajout d'une fonctionnalité de reconnaissance des IP (pas de votes multiples dans la même journée), arrivée de l'appli smartphone (qui modifie l'audience et son comportement). Les quotes anciennes sont massivement plus cliquées que les récentes, ce qui peut traduire tout simplement une forte hausse du rythme de publication ces dernières années, ne laissant plus aux votes le temps de s'accumuler. Le second graphe est peut être plus parlant, et semble montrer un déficit de dislikes pour les quotes récentes (bleu clair).
 
@@ -49,7 +49,7 @@ Une variable d'intérêt immédiat est le rapport entre les likes et les dislike
 
 Le nombre d'interlocuteurs dans une quote est dominé par le nombre 2 (plus de la moitié), les meilleurs scores étant atteints pour un nombre d'interlocuteurs élevé (entre 5 et 8), mais pas trop quand même. Les quotes "monologues" sont en général moins plébiscitées. Le *nombre de lignes* d'une quote n'a en revanche pas d'influence dramatique sur son succès. Le nombre de commentaires (qui n'est pas en soi une variable explicative car postérieure à la quote) est de 9 (med) ou 12 (moy) mais peut atteindre des pics à plus de 50 sur les quotes (1%) les plus "inspirantes".
 
-Particularités liée aux forums de discussion
+**Particularités liée aux forums de discussion**
 Certaines quotes contiennent des éléments typiques des forums de discussions, on les retrouve en nombre
 - des messages "offline" pour indiquer un statut (comme sur Facebook)
 ![exemple quote 1](quote_exemple_2.png)
@@ -57,7 +57,12 @@ Certaines quotes contiennent des éléments typiques des forums de discussions, 
 ![exemple quote 1](quote_exemple_3.png)
 - le *quit* intervient quand la personne quitte volontairement (ou non) le chat
 ![exemple quote 1](quote_exemple_4.png)
+- le language LEET qui remplace certains caractères par d'autres pour contourner la modération, afin d'utiliser des mots interdits ou liés a la sexualité. En particulier le mot *porno* se voit remplacé par *pr0n* (une centaine de quotes, avec toujours une prime de likes (+15%) quand il apparait!)
+![exemple quote 1](quote_exemple_5.png)
 
+## Pas de politique...
 
+la politique est très peu présente sur DansTonChat. Parce qu'elle est moins drôle, assurément, et parce qu'elle est moins un centre d'intérêt de l'audience. Toutefois quelques exceptions sont notables, et une recherche (incluant de potentielles fautes d'orthographe, donc en **regex**, souvenez-vous: `findall("[Hh]oll?ande?", quote)`). Alors voici un palmarès des hommes politiques ou partis les plus cités: une fixation sur Sarkozy et Le Pen, et un attrait supérieur des figures étrangères sur les française. A part ceux du tableau, tous les autres sont inexistants.
 
+![palmares politique](politique.png)
 
