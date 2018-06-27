@@ -75,8 +75,10 @@ la politique est très peu présente sur DansTonChat. Parce qu'elle est moins dr
 
 ## Analyse sémantique
 
-Foin d'ACP ou de modèles linéaires (ca serait trop pénible à présenter ici), allons tout de suite vers quelque chose de plus fin et subtil avec la **statistique textuelle**, il faut bien rentabiliser les formations qu'on fait! Le must en la matière est la logiciel IRAMUTEQ développé par Pierre Ratinaud du laboratoire LERASS (Toulouse). La statistique textelle va analyser le vocabulaire utilisé, le regrouper (*lemmatisation*) et classer en formes grammaticales, les hapax (mots uniques commes les pseudos ici), les fréquences, et surtout analyser les co-occurences (proximité des mots entre les segments (=quotes)). Et histoire de bien mesurer l'ampleur des dégâts, on va comparer avec l'analyse d'un classique de la littérature française, Germinal d'Emile Zola ([source](http://athena.unige.ch/athena/admin/ath_txt.html) du texte brut)
+Foin d'ACP ou de modèles linéaires (ca serait trop pénible à présenter ici), allons tout de suite vers quelque chose de plus fin et subtil avec la **statistique textuelle**, il faut bien rentabiliser les formations qu'on fait! Le must en la matière est le logiciel **IRAMUTEQ** développé par Pierre Ratinaud du laboratoire LERASS (Toulouse). La statistique textelle va analyser le vocabulaire utilisé, le regrouper (*lemmatisation*) et classer en formes grammaticales, les hapax (mots uniques commes les pseudos ici), les fréquences, et surtout analyser les co-occurences (proximité des mots entre les segments (=quotes)). Et histoire de bien mesurer l'ampleur des dégâts, on va comparer avec l'analyse d'un must de la littérature française: Germinal d'Emile Zola ([source](http://athena.unige.ch/athena/admin/ath_txt.html) du texte brut).
 
+Le nombre moyen de mots par quote est de 42 (oO => étonnement). Le corpus DTC rassemble 45000 formes syntaxiques (on doit cependant retrancher 22000 pseudos différents), contre seulement 7000 chez Zola (encore une fois: o_O => étonnement voire incrédulité). L'explication est pourtant simple: sur les forums, le même mot est rarement écrit deux fois de la même façon, et IRAMUTEQ a été incapable de lemmatiser une telle diversité de language. Ce n'est pas genant puisque les analyses vont se focaliser sur les mots à plus forte occurence.
 
+![exemple quote 1](quote_exemple_7.png)
 
 
