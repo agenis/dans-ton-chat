@@ -63,7 +63,7 @@ Certaines quotes contiennent des éléments typiques des forums de discussions, 
 
 ![exemple quote 1](exclamations.png)
 
-- Bien entendu, l'usage à foisons des smileys, dont une typologie s'imposait absolument. On a recencé la fréquence de chaque type de smiley dans les quotes (certains étant *étirés* à loisir), et bon... je pose ça là -__-
+- Bien entendu, l'usage à foisons des smileys, dont une typologie s'imposait absolument. On a recencé la fréquence de chaque type de smiley dans les quotes (certains étant *étirés* à loisir), et bon... je pose ça là -__- Notez au passage que mettre le nez sur un smiley (tiret du 6) c'est *has-been*.
 
 ![exemple quote 1](smileys.png)
 
