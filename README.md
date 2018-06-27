@@ -59,10 +59,16 @@ Certaines quotes contiennent des éléments typiques des forums de discussions, 
 ![exemple quote 1](quote_exemple_4.png)
 - le language LEET qui remplace certains caractères par d'autres pour contourner la modération, afin d'utiliser des mots interdits ou liés a la sexualité. En particulier le mot *porno* se voit remplacé par *pr0n* (une centaine de quotes, avec toujours une prime de likes (+15%) quand il apparait!)
 ![exemple quote 1](quote_exemple_5.png)
+- beaucoup d'exclamations, dont il a semblé totalement inutile de calculer un histogramme de fréquence du nombre de points d'exclamations ou d'interrogation consécutifs dans les quotes:
+
+![exemple quote 1](exclamations.png)
+
+- Bien entendu, l'usage à foisons des smileys, dont une typologie s'imposait absolument. On a recencé la fréquence de chaque type de smiley dans les quotes. 
+
 
 ## Pas de politique...
 
-la politique est très peu présente sur DansTonChat. Parce qu'elle est moins drôle, assurément, et parce qu'elle est moins un centre d'intérêt de l'audience. Toutefois quelques exceptions sont notables, et une recherche (incluant de potentielles fautes d'orthographe, donc en **regex**, souvenez-vous: `findall("[Hh]oll?ande?", quote)`). Alors voici un palmarès des hommes politiques ou partis les plus cités: une fixation sur Sarkozy et Le Pen, et un attrait supérieur des figures étrangères sur les française. A part ceux du tableau, tous les autres sont inexistants.
+la politique est très peu présente sur DansTonChat. Parce qu'elle est moins drôle, assurément, et parce qu'elle est moins un centre d'intérêt de l'audience. Toutefois quelques exceptions sont notables, et une recherche (incluant de potentielles fautes d'orthographe, donc en **regex**, souvenez-vous: `findall("[Hh]oll?ande?", quote)`). Alors voici un palmarès des hommes politiques ou partis les plus cités: une fixation sur Sarkozy et Le Pen, et un attrait supérieur des figures étrangères sur les françaises. A part ceux du tableau, tous les autres sont inexistants. Au total, ces termes ne représentent qu'un minuscule 0.3% des quotes.
 
 ![palmares politique](politique.png)
 
