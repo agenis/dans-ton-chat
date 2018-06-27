@@ -1,5 +1,7 @@
 ## DansTonChat, kézako?
 
+![exemple quote 1](bandeau.png)
+
 DansTonChat est un site qui fonctionne un peu comme "Vie de Merde", sauf qu'il recense les meilleures citations et échanges les plus drôles qui ont eu lieu sur des forums de discussion (chats).
 
 https://danstonchat.com/
@@ -81,8 +83,19 @@ Le nombre moyen de mots par quote est de 42 (oO => étonnement). Le corpus DTC r
 
 ![exemple quote 1](quote_exemple_7.png)
 
-Le premier résultat est un nuage de mots des quotes, élargissez l'image car elle vaut le coup d'oeil, surtout en comparaison avec Zola (nuage de droite). En 130 ans d'écart, avant on parlait surtout d'hommes, maintenant on a des "mecs". On parlait de femmes aussi, sur les forums on se préocuppe surtout de sa mère (ou celle des autres). Tout un tas de mots compliqués on rejoint la catégorie de "trucs" ou "genre". Et peu importe l'époque, on parle toujours beaucoup de choses grandes ou petites (je n'ose imaginer de quoi il s'agit). Quand au "xd", il s'agit du smiley. Le mot "coup" n'a pas été supprimé comme mot valise, on aurait pu l'enlever.
+Le premier résultat est un nuage de mots des quotes, élargissez l'image car elle vaut le coup d'oeil, surtout en comparaison avec Zola (nuage de droite). En 130 ans d'écart, avant on parlait surtout d'hommes, maintenant on a des "mecs". On parlait de femmes aussi, sur les forums on se préocuppe surtout de sa mère (ou celle des autres). Tout un tas de mots compliqués on rejoint la catégorie de "trucs" ou "genre". Et peu importe l'époque, on parle toujours beaucoup de choses grandes ou petites (je n'ose imaginer de quoi il s'agit). Quand au "xd", il s'agit du smiley. Le mot "coup" n'a pas été supprimé comme mot valise, on aurait pu l'enlever. 
 
 ![exemple quote 1](wordcloud.png)
 
+**Analyse des similitudes**
+
+Cette analyse consiste à calculer une matrice de similitudes composée de 1 et de 0, comptabilisé en 1 si deux mots font partie du même segment (ils sont utilisés dans un contexte proche), zéro sinon. La librairie `igraph` de R permet de visualiser les similitudes sous forme d'un graphe relationnel, où deux mots sont liés s'ils partagent au moins 3 co-occurences, et sont d'autant plus centraux qu'ils sont fréquents. Pour clarifier le graphique, on a retiré les mots parasites (adjectifs, adverbes, mec/coup/xD/...)
+
+![exemple quote 1](graph.png)
+
+## Conclusion
+
+L'ensemble des analyses a été réalisée sour Python (webscrapping, traitements de chaînes de caractère, expressions régulières) et R (certains graphiques, formattage du texte pour import Iramuteq).
+
+Contact: marc.agenis@gmail.com
 
